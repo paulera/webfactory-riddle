@@ -4,20 +4,25 @@ convert wonderland.png wonderland.txt
 
 edit wonderland.txt
 
+
 replace
  \([0-9]+,[0-9]+,[0-9]+,[0-9]+\)  #(......)FF  .*$
 by
  \1
+(notice leading space)
+
 
 replace
 ^0,
 by
 \n0,
 
+
 replace
 [0-9]+,[0-9]+:
 by
 empty
+
 
 replace
 ([^\n]+)\n
@@ -25,5 +30,5 @@ by
 \1
 
 
-break the text so you have a loooooooong string for each row. dont concatenate rows, make sure it is clear that there is more than one otherwise it will be too hard
+make it all a single string, rows must be broken by the user in the "FFFFFF"s. It's easier when you scroll to the end.
 

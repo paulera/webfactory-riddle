@@ -1,0 +1,30 @@
+Add these comments to webfactory homepage:
+
+1) Add "comment for home.txt" in the middle of the page
+
+2) Add
+	
+	<!-- hey, psst! -->
+	<link rel="stylesheet" type="text/css" href="styleme.css" />
+
+3) At the end of the page, add
+
+	<!-- <script src="runme.js"></script> -->
+
+4) Add to robots.txt
+
+	Disallow: /debme/M0VabLfkaHJ/
+	Disallow: /alice.txt
+
+	the first one is a hint. The page has the "Feels Like We Only Go Backwards" video of tame impala and suggests to go to JHakfLbaV0M on youtube
+
+5) Add alice.txt to the server root
+
+6) Create a worderland.webfactory.ie site, add the contents of wonderland folder. htaccess protected.
+
+Message: Hi [alice]! How can I find you?
+
+User is alice
+password is N0T3V3NG00G13C@NF1NDM3
+
+7) publish the CONTENTS of wordeland folder into worderland.webfactory.ie subdomain

@@ -1,0 +1,5 @@
+AuthType Basic
+AuthName "Hi [alice]! How can I find you?"
+AuthUserFile /var/www/html/wonderland/.htpasswd
+Require valid-user
+

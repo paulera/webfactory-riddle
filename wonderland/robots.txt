@@ -1,0 +1,4 @@
+/* Google not knowing doesn't mean you don't ;) */
+
+User-agent: *
+Disallow: /
