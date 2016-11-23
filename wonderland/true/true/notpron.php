@@ -163,7 +163,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 				<br>
 
 				<div id="quote">
-					<span id="phrase">"Every ending leads to a new begining"</span><br>
+					<span id="phrase">"Every ending leads to a new beginning"</span><br>
 					<span id="author">- B. Wayne</span><!-- What else have this man said? -->
 				</div>
 
